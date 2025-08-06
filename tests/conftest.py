@@ -10,7 +10,7 @@ from src.models.token_model import LoginModel, TokenModel
 # --- 🛠 Configuración del Test (Fixtures) ---
 
 # URL de la API de prueba (idealmente, esto vendría de un archivo .env o settings)
-API_BASE_URL = "https://8000-djwester-todolisttestin-scho82zu6a3.ws-us120.gitpod.io/"
+API_BASE_URL = "https://8000-djwester-todolisttestin-ehrpirtd3od.ws-us120.gitpod.io/"
 
 @pytest.fixture(scope="session")
 def base_api_url():
